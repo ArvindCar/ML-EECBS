@@ -91,27 +91,27 @@ if __name__ == '__main__':
         my_map, starts, goals = import_mapf_instance(file)
         print_mapf_instance(my_map, starts, goals)
 
-        if args.solver == "CBS":
-            print("***Run CBS***")
-            cbs = CBSSolver(my_map, starts, goals)
-            paths = cbs.find_solution()
-        elif args.solver == "PBS":
-            print("***Run PBS***")
-            solver = PBSSolver(my_map, starts, goals)
-            paths = solver.find_solution()
-        elif args.solver == "Independent":
-            print("***Run Independent***")
-            solver = IndependentSolver(my_map, starts, goals)
-            paths = solver.find_solution()
-        elif args.solver == "JointState":
-            print("***Run JointState***")
-            solver = JointStateSolver(my_map, starts, goals)
-            paths = solver.find_solution()
-        elif args.solver == "Prioritized":
-            print("***Run Prioritized***")
-            solver = PrioritizedPlanningSolver(my_map, starts, goals)
-            paths = solver.find_solution()
-        elif args.solver == "EECBS":
+        # if args.solver == "CBS":
+        #     print("***Run CBS***")
+        #     cbs = CBSSolver(my_map, starts, goals)
+        #     paths = cbs.find_solution()
+        # elif args.solver == "PBS":
+        #     print("***Run PBS***")
+        #     solver = PBSSolver(my_map, starts, goals)
+        #     paths = solver.find_solution()
+        # elif args.solver == "Independent":
+        #     print("***Run Independent***")
+        #     solver = IndependentSolver(my_map, starts, goals)
+        #     paths = solver.find_solution()
+        # elif args.solver == "JointState":
+        #     print("***Run JointState***")
+        #     solver = JointStateSolver(my_map, starts, goals)
+        #     paths = solver.find_solution()
+        # elif args.solver == "Prioritized":
+        #     print("***Run Prioritized***")
+        #     solver = PrioritizedPlanningSolver(my_map, starts, goals)
+        #     paths = solver.find_solution()
+        if args.solver == "EECBS":
             print("***Run EECBS***")
             cbs = EECBSSolver(my_map, starts, goals)
             paths = cbs.find_solution()
