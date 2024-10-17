@@ -2,12 +2,9 @@
 import argparse
 import glob
 from pathlib import Path
-# from cbs import CBSSolver
-# from pbs import PBSSolver
 from eecbs import EECBSSolver
-# from independent import IndependentSolver
-# from joint_state import JointStateSolver
-# from prioritized import PrioritizedPlanningSolver
+from eecbs_dc import EECBS_DC
+from mleecbs import MLEECBSSolver
 from visualize import Animation
 from single_agent_planner import get_sum_of_cost
 
@@ -53,7 +50,7 @@ def import_mapf_instance(filename):
         line = f.readline()
         my_map.append([])
         for cell in line:
-            if cell == '@':
+            if cell == '@' or cell == 'T':
                 my_map[-1].append(True)
             elif cell == '.':
                 my_map[-1].append(False)
@@ -80,9 +77,13 @@ if __name__ == '__main__':
                         help='Use batch output instead of animation')
     parser.add_argument('--solver', type=str, default=SOLVER,
                         help='The solver to use (one of: {CBS,PBS,Independent,Prioritized}), defaults to ' + str(SOLVER))
+    parser.add_argument('--save', action='store_true', default=False,
+                        help='Save the solved path animation as a gif')
+    parser.add_argument('--map_name', type=str, default='')
+
 
     args = parser.parse_args()
-
+    print(args.map_name)
     result_file = open("results.csv", "w", buffering=1)
 
     for file in sorted(glob.glob(args.instance)):
@@ -91,30 +92,19 @@ if __name__ == '__main__':
         my_map, starts, goals = import_mapf_instance(file)
         print_mapf_instance(my_map, starts, goals)
 
-        # if args.solver == "CBS":
-        #     print("***Run CBS***")
-        #     cbs = CBSSolver(my_map, starts, goals)
-        #     paths = cbs.find_solution()
-        # elif args.solver == "PBS":
-        #     print("***Run PBS***")
-        #     solver = PBSSolver(my_map, starts, goals)
-        #     paths = solver.find_solution()
-        # elif args.solver == "Independent":
-        #     print("***Run Independent***")
-        #     solver = IndependentSolver(my_map, starts, goals)
-        #     paths = solver.find_solution()
-        # elif args.solver == "JointState":
-        #     print("***Run JointState***")
-        #     solver = JointStateSolver(my_map, starts, goals)
-        #     paths = solver.find_solution()
-        # elif args.solver == "Prioritized":
-        #     print("***Run Prioritized***")
-        #     solver = PrioritizedPlanningSolver(my_map, starts, goals)
-        #     paths = solver.find_solution()
         if args.solver == "EECBS":
             print("***Run EECBS***")
-            cbs = EECBSSolver(my_map, starts, goals)
-            paths = cbs.find_solution()
+            solver = EECBSSolver(my_map, starts, goals)
+            paths = solver.find_solution()
+        elif args.solver == "EECBSDC":
+            print("***Run EECBS Data Collection***")
+            solver = EECBS_DC(my_map, starts, goals, args.map_name)    
+            paths = solver.find_solution()
+        elif args.solver == "MLEECBS":
+            print("***Run MLEECBS***")
+            solver = MLEECBSSolver(my_map, starts, goals, args.map_name, args.batch)
+            paths = solver.find_solution()
+        
         else:
             raise RuntimeError("Unknown solver!")
 
@@ -125,6 +115,9 @@ if __name__ == '__main__':
         if not args.batch:
             print("***Test paths on a simulation***")
             animation = Animation(my_map, starts, goals, paths)
-            # animation.save("output.mp4",2.0)
+            if args.save:
+                animation.save("animation.gif", speed=1)
+                print("saved")
+            # animation.save("output.mp4", 1.0)
             animation.show()
     result_file.close()

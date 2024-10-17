@@ -1,0 +1,143 @@
+81 65
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTT.TTTTT.TTTTTTT.........TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTT........TTTTTT..........TTTTTTTTTTTTTTTTTTTTTTTT....TTTTTTTTT
+TTTT........TTTTTTT.........TTTTTTTTTTTTTTTTTTTTTTTT...TTTTTTTTTT
+TTT.........TTTTTTT..........TTTTTTTTTTTTTTTTTTTTT..........TTTTT
+TTT........TTTTTTTT..........TTTTTTTTTTTTTTTTTTTTT..........TTTTT
+TT.........TTTTTTTT..........TTTTTTTTTTTTTTTTTTTTT..........TTTTT
+TT.........TTTTTTT...........TTTTTTT...TTTT...TTTT............TTT
+TT.........TTTTTTTTT.........TTTTTTT....TTT...TTT.............TTT
+TT.........TTTTTTTTT..........TTTT............................TTT
+TTT............TTTTT..........................................TTT
+TTT............TTTT...........................................TTT
+TTT............TTTT..........................................TTTT
+TT.............TTTT...........TTTTT....TTT.....TTT....TTTTTTTTTTT
+TTTT...........TTTT.........TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTT.TTTT.....TTTTTT........TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTT.TTTT....TTTTTTT........TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTT.TTTT....TTTTT...........TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTT.TTTT....................TTTTTTT....TTTTTTTTTTT........TTTTTT
+TTTT.........................TTTTTTT....TTTTTTTTTTT.....TTTTTTTTT
+TTTT.........................TTTTT......TTTTTTTTTTT.....TTTTTTTTT
+TTT..........TTTTTT..........TTTTT......TTTTTTTTTTT.....TTTTTTTTT
+TTT..........TTTTTT..........TTTTT......TTTTTTTTTTT.....TTTTTTTTT
+TTT.TTTTTTTTT@TTTTT..........TTTTTT....TTTTTTTTTTTT.....TTTTTTTTT
+TT..TTTTTTTTT@TTTTT..........TTTTTT....TTTTTTTTTTTT.....TTTTTTTTT
+TT..TTTTTTTTT@TTTTT...........TTTT.....TTTTTTTTTTTT.....TTTTTTTTT
+TT..TTTTTTTTT@TTTTT.....................................TTTTTTTTT
+TT..TTTTTTTTT@TTTTT.....................................TTTTTTTTT
+TT..TTTTTTTTTTTTTTT...........................................TTT
+TTTTTTTTTTTTTTTTTTT...........TTTT............................TTT
+TTTTTTTTTTTTTTTTTTT...........TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTT...........TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+@@@@@@@@@@@@@@@@@T............TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+@@@@@@@@@@@@@@@@@T............TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+@@@@@@@@@@@@@@@@@T.................TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+@@@@@@@@@@@@@@@@@T.................TTTTTTT....TTTTTTT.TTTTTTTTTTT
+@@@@@@@@@@@@@@@@@T.....................TTT.....TTT.............TT
+@@@@@@@@@@@@@@@@@TT............................................TT
+@@@@@@@@@@@@@@@@@TT...........................................TTT
+@@@@@@@@@@@@@@@@TTT...........................................TTT
+@@@@@@@@@@@@@@@@TTT...........................................TTT
+@@@@@@@@@@@@@@@@TTT..........................................TTTT
+@@@@@@@@@@@@@@@@TTTT..................TTTTTTTTT..............TTTT
+@@@@@@@@@@@@@@@@TTTT..................TTTTTTTTT..............TTTT
+@@@@@@@@@@@@@@@@TTTT..TTTT.....TTT..TTTTTTTTTTT...............TTT
+@@@@@@@@@@@@@@@@TTTTTTTTTTT...TTTTTTTTTTTTTTTTTTTTT...TTTTTTTTTTT
+@@@@@@@@@@@@@@@@TTTTTTTTTTT...TTTTTTTTTTTTTTTTTTTTT...TTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTT...TTTTTTTTTTTTTTTTTTTTT...TTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTT...TTTTTTTTTTTTTTTTTTTTTT..TTTTTTTTTTT
+TTTTTTTT.TTTTTTT.TTTTTTTTT.....TTTTTTTTT.TTTTTTTTTT......TTT@TTTT
+TTTTTTTT.TTTTTTT.TTTTTTT..........TTTTTT.TTTTTTTTTT......TTT@TTTT
+TTTTTTTT..TTTTTT.TTTTTTT..........TTTTTT.TTTTTTTTTT.......TT@TTTT
+TTTT..TT..TTT.TT...TTT........................TTTTT.........TTTTT
+TT............................................TTTTT.........TTTTT
+TT............................................TTTTT........TTTTTT
+TT............................................TTTTT........TTTTTT
+TT...........TT.T.............................TTTT.........TTTTTT
+TTT..TT......TTTT....TT.......................TTTT...........TTTT
+TTT..TTTTT..TTTTT....TTTT.........TTTTTT.TTT..TTTT..........TTTTT
+TTT..TTTTT...TTTT....TTTT.........TTTTTT.TTTT.TTTT............TTT
+TTT..TTT.......TT...TTTT..........TTTTTT.TTTT.TTTT.....TTTTTT.TTT
+TTT.................TTTTT.....TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TT....................TT....TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTT..............TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTT..............TTTTTTTTTTTTTTTTTTTTTTTTT.......TTTTT
+TTTTTTTTTTTTTT................TTTT...........................TTTT
+TTTTTTTTTTTTTT...............................................TTTT
+TTTTTT.....TTT...............................................TTTT
+TTTTTT.....TTT.................................................TT
+TTTTT.....TTTT................TTTT.............................TT
+TTTTT.....TTTT........TTT....TTTTT.............................TT
+TTTTT.....TTTT........TTT....TTTTT.............................TT
+TTTTT.....TTTT........TTTTTT..TTTT.............................TT
+TTTTT.....TTTT........TTTTTT..TTTTTT...........................TT
+TTTTT.....TTTT........TTTTTT..TTTTTT.............................
+TTTTT............TTT..TTTTTT.TTTTTTT.............................
+TTTTT...........TTTT..TTTTTTTTTTTTTT...TTTTTTTTTTTTTTTTTTT.......
+TTTTT...........TTTT....TTTTTTTTTTTT...TTTTTTTTTTTTTTTTTTT.....TT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+60
+8 56 69 29
+74 42 58 27
+25 35 70 58
+56 56 50 27
+54 18 42 60
+3 19 28 22
+24 19 59 56
+55 34 24 36
+26 29 29 33
+23 28 69 51
+20 16 25 26
+17 27 23 12
+67 51 21 39
+70 8 4 8
+21 27 52 54
+53 38 5 50
+15 20 78 11
+25 24 74 41
+67 24 13 59
+40 37 9 24
+38 35 8 43
+38 20 9 22
+53 8 64 17
+28 19 15 27
+30 44 55 42
+30 53 4 20
+74 6 60 58
+16 22 56 7
+13 23 32 21
+73 52 37 35
+45 53 12 27
+54 29 59 30
+57 7 71 21
+35 21 11 21
+3 7 70 53
+43 29 24 25
+29 27 38 31
+54 55 29 35
+55 43 69 47
+65 16 40 27
+55 45 7 27
+37 55 17 25
+52 57 73 37
+40 22 72 6
+38 33 43 59
+27 22 75 59
+37 22 45 29
+15 7 9 59
+12 32 29 48
+10 46 66 35
+9 25 54 40
+39 53 59 33
+52 30 42 32
+9 52 57 26
+74 52 52 24
+44 23 11 41
+41 37 15 12
+69 58 58 42
+41 57 15 5
+41 46 71 42
